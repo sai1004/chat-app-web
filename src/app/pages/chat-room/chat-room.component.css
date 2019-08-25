@@ -1,0 +1,7 @@
+section{
+    height: 100%;
+}
+.app-users-chat-list {
+    border: solid black 1px;
+    background-color: pink;
+}

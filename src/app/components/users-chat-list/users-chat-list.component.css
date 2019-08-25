@@ -1,0 +1,20 @@
+section{
+    height: 100vh;
+    overflow: auto;
+}
+.chat-users {
+    border: solid gray 1px;
+    background-color: #00AFF0;
+
+}
+.chat-users :hover{
+    background-color: #00FFFF;
+    cursor: pointer;
+}
+.pro-bar{
+    background-color: #00AFF0;
+    /* position: fixed; */
+ 
+
+
+}
