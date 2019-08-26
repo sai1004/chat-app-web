@@ -24,8 +24,10 @@ section {
 h4 {
   background-color: #f73f5b;
   padding: 5px;
-  width: 50%;
-  text-align: center;
+  /* width: 50%; */
+  /* text-align: center; */
+  line-height: 25px;
+  color: white;
   border-radius: 5px; 
   border-bottom-left-radius: 10px;
 

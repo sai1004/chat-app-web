@@ -19,19 +19,19 @@ export class UsersChatListComponent implements OnInit {
     },
     { 
       id: 2,
-      userName: 'sai', 
+      userName: 'sam', 
       message: ' somthing ',
       img: '../../../assets/avatar2.png'
 
     }, { 
       id: 3,
-      userName: 'sai', 
+      userName: 'jake', 
       message: ' somthing ',
       img: '../../../assets/avatar2.png'
 
     }, { 
       id: 4,
-      userName: 'sai', 
+      userName: 'ram', 
       message: ' somthing ',
       img: '../../../assets/avatar2.png'
 
@@ -39,76 +39,76 @@ export class UsersChatListComponent implements OnInit {
     ,
     { 
       id: 2,
-      userName: 'sai', 
+      userName: 'chris', 
       message: ' somthing ',
       img: '../../../assets/avatar2.png'
 
     }, { 
       id: 3,
-      userName: 'sai', 
+      userName: 'lark', 
       message: ' somthing ',
       img: '../../../assets/avatar2.png'
 
     }, { 
       id: 4,
-      userName: 'sai', 
+      userName: 'lin', 
       message: ' somthing ',
       img: '../../../assets/avatar2.png'
 
     },
     { 
       id: 2,
-      userName: 'sai', 
+      userName: 'brad', 
       message: ' somthing ',
       img: '../../../assets/avatar2.png'
 
     }, { 
       id: 3,
-      userName: 'sai', 
+      userName: 'jason', 
       message: ' somthing ',
       img: '../../../assets/avatar2.png'
 
     }, { 
       id: 4,
-      userName: 'sai', 
+      userName: 'hammer', 
       message: ' somthing ',
       img: '../../../assets/avatar2.png'
 
     },
     { 
       id: 2,
-      userName: 'sai', 
+      userName: 'sevlit', 
       message: ' somthing ',
       img: '../../../assets/avatar2.png'
 
     }, { 
       id: 3,
-      userName: 'sai', 
+      userName: 'roy', 
       message: ' somthing ',
       img: '../../../assets/avatar2.png'
 
     }, { 
       id: 4,
-      userName: 'sai', 
+      userName: 'Rathor', 
       message: ' somthing ',
       img: '../../../assets/avatar2.png'
 
     },
     { 
       id: 2,
-      userName: 'sai', 
+      userName: 'emrin', 
       message: ' somthing ',
       img: '../../../assets/avatar2.png'
 
     }, { 
       id: 3,
-      userName: 'sai', 
+      userName: 'jospeh', 
       message: ' somthing ',
       img: '../../../assets/avatar2.png'
 
     }, { 
       id: 4,
-      userName: 'sai', 
+      userName: 'dildigo', 
       message: ' somthing ',
       img: '../../../assets/avatar2.png'
 
