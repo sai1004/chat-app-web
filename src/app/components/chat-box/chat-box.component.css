@@ -1,8 +1,32 @@
 .example-fill-remaining-space {
-    /* This fills the remaining space, by using flexbox. 
+  /* This fills the remaining space, by using flexbox. 
        Every toolbar row uses a flexbox row layout. */
-    flex: 1 1 auto;
-  }
-  input{
-      width: 98%
-  }
+  flex: 1 1 auto;
+}
+input {
+  width: 98%;
+  height: 25px;
+  border-radius: 30px;
+  border: 1px gray solid;
+  outline: none;
+}
+mat-card {
+  box-shadow: 1px 1px 0px 0px gray;
+  border-radius: none !important;
+}
+
+section {
+  /* height: 700px; */
+  height: 79vh;
+  overflow: auto;
+  /* background-color: rgb(90, 64, 64); */
+}
+h4 {
+  background-color: #f73f5b;
+  padding: 5px;
+  width: 50%;
+  text-align: center;
+  border-radius: 5px; 
+  border-bottom-left-radius: 10px;
+
+}

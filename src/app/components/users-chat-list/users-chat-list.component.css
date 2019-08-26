@@ -1,20 +1,25 @@
 section{
     height: 100vh;
     overflow: auto;
+  
+    scroll-margin-block: none
+}
+
+section::-webkit-scrollbar { 
+    display: none; 
 }
 .chat-users {
     border: solid gray 1px;
-    background-color: #00AFF0;
+    /* background-color: #00AFF0; */
 
 }
 .chat-users :hover{
-    background-color: #00FFFF;
+    background-color: whitesmoke;
     cursor: pointer;
 }
-.pro-bar{
-    background-color: #00AFF0;
-    /* position: fixed; */
- 
 
 
+mat-card{
+    box-shadow: 1px 1px 0px 0px gray;
+    border-radius: none !important;
 }
