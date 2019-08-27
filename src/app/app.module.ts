@@ -12,7 +12,7 @@ import { FlexLayoutModule } from "@angular/flex-layout";
 import { AppRoutingModule } from "./app-routing.module";
 import { MatFormFieldModule } from "@angular/material/form-field";
 import { SharedModule } from "./shared/shared.module";
-import { from } from "rxjs";
+
 
 // import { CartItemService } from './components/cart-item.service';
 
@@ -21,7 +21,8 @@ import { from } from "rxjs";
     AppComponent,
     ChatRoomComponent,
     UsersChatListComponent,
-    ChatBoxComponent
+    ChatBoxComponent,
+
   ],
   imports: [
     BrowserModule,

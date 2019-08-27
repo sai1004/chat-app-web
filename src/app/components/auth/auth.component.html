@@ -1,0 +1,115 @@
+<!---------------------------- auth signin template ---------------------------->
+
+<ng-template [ngif]="type == signin && auth">
+  <form action="/login" method="POST">
+    <h1>Login</h1>
+
+    <div class="txtb">
+      <input type="text" name="email" id="email" placeholder="email" />
+      <span> </span>
+    </div>
+
+    <div class="txtb">
+      <input
+        type="password"
+        name="password"
+        id="password"
+        placeholder="password"
+      />
+      <span> </span>
+    </div>
+
+    <input type="submit" class="logbtn" value="Login" />
+
+    <div class="bottom-text">
+      Don't have account? <a routerLink="/auth/signup"> Sign up </a>
+    </div>
+  </form>
+</ng-template>
+
+<!---------------------------- auth signup tag ---------------------------->
+
+<ng-template [ngif]="type == signup && auth">
+    <form action="/login" method="POST">
+      <h1>Login</h1>
+  
+      <div class="txtb">
+        <input type="text" name="email" id="email" placeholder="email" />
+        <span> </span>
+      </div>
+  
+      <div class="txtb">
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="password"
+        />
+        <span> </span>
+      </div>
+  
+      <input type="submit" class="logbtn" value="Login" />
+  
+      <div class="bottom-text">
+        Don't have account? <a routerLink="/auth/signup"> Sign up </a>
+      </div>
+    </form>
+  </ng-template>
+
+  <!---------------------------- auth forgotpassword template ---------------------------->
+
+  <ng-template [ngif]="type == forgotpassword && auth">
+    <form action="/login" method="POST">
+      <h1>Login</h1>
+  
+      <div class="txtb">
+        <input type="text" name="email" id="email" placeholder="email" />
+        <span> </span>
+      </div>
+  
+      <div class="txtb">
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="password"
+        />
+        <span> </span>
+      </div>
+  
+      <input type="submit" class="logbtn" value="Login" />
+  
+      <div class="bottom-text">
+        Don't have account? <a routerLink="/auth/signup"> Sign up </a>
+      </div>
+    </form>
+  </ng-template>
+  
+  <!---------------------------- auth resetpassword tag ---------------------------->
+
+  <ng-template [ngif]="type == resetpassword && auth">
+    <form action="/login" method="POST">
+      <h1>Login</h1>
+  
+      <div class="txtb">
+        <input type="text" name="email" id="email" placeholder="email" />
+        <span> </span>
+      </div>
+  
+      <div class="txtb">
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="password"
+        />
+        <span> </span>
+      </div>
+  
+      <input type="submit" class="logbtn" value="Login" />
+  
+      <div class="bottom-text">
+        Don't have account? <a routerLink="/auth/signup"> Sign up </a>
+      </div>
+    </form>
+  </ng-template>
