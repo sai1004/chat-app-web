@@ -1,5 +1,5 @@
 section{
-    height: 100%;
+    height: vh100;
 }
 .app-users-chat-list {
     border: solid black 1px;
