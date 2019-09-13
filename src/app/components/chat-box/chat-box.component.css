@@ -1,12 +1,4 @@
-.example-fill-remaining-space {
-  /* This fills the remaining space, by using flexbox. 
-       Every toolbar row uses a flexbox row layout. */
-  flex: 1 1 auto;
-}
-main{
-  height: 100vh ;
 
-}
 input {
   width: 98%;
   height: 25px;
@@ -20,12 +12,10 @@ mat-card {
 }
 
 section {
-  /* height: 700px; */
-  height: 68vh ;
+  height: 79vh;
   overflow: auto;
-  /* background-color: whitesmoke; */
+
   background-color: green;
-  
 }
 h4 {
   background-color: #f73f5b;
@@ -34,7 +24,6 @@ h4 {
   /* text-align: center; */
   line-height: 25px;
   color: white;
-  border-radius: 5px; 
+  border-radius: 5px;
   border-bottom-left-radius: 10px;
-
 }
